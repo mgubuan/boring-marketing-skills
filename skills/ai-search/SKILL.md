@@ -75,7 +75,7 @@ Example, a proposal tool for freelancers: "best proposal software for freelance 
 
 Ask the user once, before capture: "If you can paste real ChatGPT, Perplexity and Gemini answers for your top 3 to 5 questions, I'll score those as ground truth." Pasted answers override the proxy layers for those questions. Don't block on it.
 
-Dispatch one subagent per question kind, in parallel (Task tool, `general-purpose` when the plugin's research type is unavailable), each returning an evidence pack, not analysis. Per question, three layers, each labeled in the notes file (never as tags in the report):
+Dispatch one subagent per question kind, in parallel (Task tool, `general-purpose` when the plugin's research type is unavailable), each returning an evidence pack, not analysis. Per question, three layers, each labeled visibly in the report and in the notes as LIVE ANSWER, SEARCH PROXY, or NOT OBSERVED:
 
 1. **Google AI Overview.** Search the question (Firecrawl search if keyed, else WebSearch). Record the overview text and every cited URL when it appears. When your tools can't show it, record the top organic results and mark `AIO: not captured, organic proxy`.
 2. **Retrieval landscape** (the ChatGPT and Perplexity proxy). Run the conversational phrasing through web search and record which sources dominate. Fetch the top 2 or 3 enough to see whether they name the brand and competitors. Label `RETRIEVAL PROXY`.
@@ -196,7 +196,7 @@ Honest framing, verbatim in the deliverable: *"llms.txt is an emerging conventio
 
 ### Fix 5. Crawler access and IndexNow
 
-ChatGPT retrieves from OpenAI's own index, so the prerequisites are OAI-SearchBot and GPTBot allowed in robots.txt and the core content in server-rendered HTML. Check both. IndexNow reaches Bing and Copilot and is near free: host a key file at `<domain>/<key>.txt` and ping on every publish or update (`https://api.indexnow.org/indexnow?url=<page-url>&key=<key>`). Google ignores IndexNow. Prefer a CMS plugin where one exists.
+For ChatGPT search discovery, inspect OAI-SearchBot access and readable core content. GPTBot controls potential training use independently; allowing GPTBot is not a prerequisite for search. Preserve the owner's separate training preference. Verify current guidance at https://developers.openai.com/api/docs/bots before suggesting a robots change. IndexNow reaches Bing and Copilot and is near free: host a key file at `<domain>/<key>.txt` and ping on every publish or update (`https://api.indexnow.org/indexnow?url=<page-url>&key=<key>`). Google ignores IndexNow. Prefer a CMS plugin where one exists.
 
 ### Fix 6. Community presence (judgment, not tactics)
 

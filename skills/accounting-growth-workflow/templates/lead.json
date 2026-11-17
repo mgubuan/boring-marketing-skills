@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "id": "example-only",
+  "company": "Example Accounting",
+  "domain": "example.invalid",
+  "status": "hold",
+  "relationship": "unknown",
+  "excluded": false,
+  "duplicate": "unchecked",
+  "ai_team": "unknown",
+  "ai_team_sources": [],
+  "contact": {"route": "unknown", "value": "", "verification": "unknown"},
+  "research_complete": false,
+  "sources": [],
+  "fit_hypothesis": "",
+  "checked_at": "",
+  "draft_state": "brief_only"
+}

@@ -6,6 +6,15 @@ Free marketing skills for your AI agent: research, positioning, copy, pages, SEO
 
 Made by James Dickerson ([@boringmarketer](https://x.com/boringmarketer)). More at [boringmarketing.com](https://boringmarketing.com). Need clients to use this on? [boringfunnels.com](https://boringfunnels.com) finds local businesses losing customers (I make it). Want agents built for your team? [Work with us](https://boringmarketing.com/#work).
 
+## Intelligence Solved workflow adaptation
+
+Use [Accounting Growth Workflow](skills/accounting-growth-workflow/SKILL.md) for the
+review-gated accounting prospect process. It is an explicit opt-in adaptation,
+not an installation or automated campaign. Private prospect and campaign records
+must live outside this public repository. Previously rejected copy stays rejected.
+
+See [adaptation verification](ADAPTATION-VERIFICATION.md) for checks and limitations.
+
 ## Install
 
 Any agent (Claude Code, Codex, Cursor and others):

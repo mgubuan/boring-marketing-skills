@@ -7,3 +7,11 @@ _system/scripts/outputs/
 tests/results/
 internal/
 node_modules/
+
+# Runtime business data must stay outside this public fork.
+brand/
+brands/
+campaigns/
+private/
+MARKETING.md
+preferences.md

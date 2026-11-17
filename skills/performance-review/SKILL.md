@@ -175,7 +175,7 @@ Most customers run n<1000 per period. The discipline (full worked examples in th
 
 ### 2c. Metric literacy
 
-Correct the numbers before reasoning from them. The quirks table in the reference covers each: email opens are MPP-inflated (judge clicks/replies/unsubs); GA4 conversions are modeled and settle for ~48-72h; ad platforms backfill conversions for ~72h after spend (never call a cell early); GSC position is an impression-weighted average, not a rank; B2B email clicks include scanner bots. Separate AI-referral traffic (chatgpt.com, perplexity.ai, etc.) into its own channel. It converts differently and means something different (it means you're being cited).
+Correct the numbers before reasoning from them. The quirks table in the reference covers each: email opens are MPP-inflated (judge clicks/replies/unsubs); GA4 conversions are modeled and settle for ~48-72h; ad platforms backfill conversions for ~72h after spend (never call a cell early); GSC position is an impression-weighted average, not a rank; B2B email clicks include scanner bots. Separate AI-referral traffic (chatgpt.com, perplexity.ai, etc.) into its own channel. Report it as observed referral traffic, not proof of an AI citation: links may be shared or pasted. Keep captured AI citations, AI referrals, GSC generative impressions, search proxies and confirmed leads as separate evidence classes.
 
 ### 2d. Find the ONE bottleneck
 
